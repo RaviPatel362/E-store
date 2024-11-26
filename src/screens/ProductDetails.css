@@ -1,0 +1,36 @@
+.product-details .product {
+    flex-direction: row;
+    width: 100%;
+
+}
+
+.product-details .product-img {
+    width: 50%;
+    height: 50%;
+    transition: transform .5s;
+}
+
+.product-details .product-img:hover {
+    transform: scale(1.03);
+}
+
+.product-details .product-btn {
+    width: 300px;
+}
+
+.product-details .product-btn.small {
+    width: 50px;
+}
+
+.product-details .product-input {
+    height: 35px;
+    width: 197px;
+    text-align: center;
+}
+
+@media screen and(max-width:980px) {
+    .product-details .product {
+        flex-direction: column;
+
+    }
+}
